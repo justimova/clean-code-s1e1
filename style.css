@@ -16,7 +16,7 @@ body {
   width: 100%;
   vertical-align: top;
 }
-.header .more_info {
+.header .more-info {
   font-family: fantasy, cursive;
 }
 
@@ -37,7 +37,7 @@ body {
   box-sizing: border-box;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.task-row {
   display: flex;
 }
 .tasks {
@@ -148,11 +148,11 @@ button {
   display: none;
 }
 
-.tasks .task-row.editMode .task-input {
+.tasks .task-row.edit-mode .task-input {
   display: inline-block;
   width: 224px
 }
 
-.tasks .task-row.editMode .task-title {
+.tasks .task-row.edit-mode .task-title {
   display: none;
 }

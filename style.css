@@ -14,6 +14,7 @@ body {
 
 .aaa img {
   width: 100%;
+  vertical-align: top;
 }
 .aaa .more_inf {
   font-family: fantasy, cursive;
@@ -31,6 +32,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
+  box-sizing: border-box;
   flex-grow: 1
 }
 .task-row-wrapper {
@@ -124,6 +126,7 @@ button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
+  vertical-align: middle;
 }
 button.delete img:hover {
   transform: rotateZ(0);

@@ -28,7 +28,7 @@ body {
 .main {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 1em auto;
 }
 .task-input,
 .task-title {
@@ -93,7 +93,10 @@ button {
 }
 
 /* New Task */
-.add-mode .caption.new-task {
+.add-section {
+  margin-bottom: 16px;
+}
+.add-section .caption.new-task {
   display: block;
   margin: 0 0 20px;
 }

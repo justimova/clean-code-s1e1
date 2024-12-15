@@ -7,45 +7,45 @@
   </head>
   <body>
     <header class="header">
-      <img class="logo" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
-      <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img class="header__logo" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
+      <a class="header__more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
-      <section class="add-section">
-        <h1 class="caption new-task">Add Item</h1>
-        <div class="task-row">
-          <input id="new-task" class="task-input" type="text">
-          <button class="button add" id="add-task">Add</button>
+      <section class="adding">
+        <h1 class="adding__caption">Add Item</h1>
+        <div class="adding__row">
+          <input class="adding__task-input" type="text">
+          <button class="adding__add-button">Add</button>
         </div>
       </section>
-      <section class="tasks-section">
-        <h1 class="caption todo">Todo</h1>
-        <ul class="tasks" id="tasks">
-          <li class="task-row">
-            <input type="checkbox" class="action">
-            <span class="task-title">Pay Bills</span>
-            <input type="text" class="task-input">
-            <button class="button edit">Edit</button>
-            <button class="button delete"><img src="./remove.svg" alt="Remove" class="remove-image"></button>
+      <section class="todo">
+        <h1 class="todo__caption">Todo</h1>
+        <ul class="todo__tasks">
+          <li class="todo__row">
+            <input type="checkbox" class="todo__toggle">
+            <span class="todo__task-title">Pay Bills</span>
+            <input type="text" class="todo__task-input">
+            <button class="todo__edit-button">Edit</button>
+            <button class="todo__delete-button"><img src="./remove.svg" alt="Remove" class="todo__remove-image"></button>
           </li>
-          <li class="task-row edit-mode">
-            <input type="checkbox" class="action">
-            <span class="task-title">Go Shopping</span>
-            <input type="text" class="task-input" value="Go Shopping">
-            <button class="button edit">Save</button>
-            <button class="button delete"><img src="./remove.svg" alt="Remove" class="remove-image"></button>
+          <li class="todo__row todo__row_edit-mode">
+            <input type="checkbox" class="todo__toggle">
+            <span class="todo__task-title todo__task-title_edit-mode">Go Shopping</span>
+            <input type="text" class="todo__task-input todo__task-input_edit-mode" value="Go Shopping">
+            <button class="todo__edit-button">Save</button>
+            <button class="todo__delete-button"><img src="./remove.svg" alt="Remove" class="todo__remove-image"></button>
           </li>
         </ul>
       </section>
-      <section class="completed-tasks-section">
-        <h1 class="caption completed">Completed</h1>
-        <ul class="tasks completed" id="completed-tasks">
-          <li class="task-row">
-            <input type="checkbox" checked class="action">
-            <span class="task-title">See the Doctor</span>
-            <input type="text" class="task-input">
-            <button class="button edit">Edit</button>
-            <button class="button delete"><img src="./remove.svg" alt="Remove" class="remove-image"></button>
+      <section class="completed">
+        <h1 class="completed__caption">Completed</h1>
+        <ul class="completed__tasks">
+          <li class="completed__row">
+            <input type="checkbox" checked class="completed__toggle">
+            <span class="completed__task-title">See the Doctor</span>
+            <input type="text" class="completed__task-input">
+            <button class="completed__edit-button">Edit</button>
+            <button class="completed__delete-button"><img src="./remove.svg" alt="Remove" class="completed__remove-image"></button>
           </li>
         </ul>
       </section>
